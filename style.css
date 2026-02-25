@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    text-align:center;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    overflow:hidden;
+}
+
+.container{
+    padding-top : 50px;
+}
+
+h1{
+    font-size:35px;
+    color:#fff;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow{
+    from{ text-shadow:0 0 10px #fff; }
+    to{ text-shadow:0 0 25px #ff0080; }
+}
+
+button{
+    padding:10px 20px;
+    font-size:18px;
+    border:none;
+    border-radius:20px;
+    background:#ff4081;
+    color:white;
+    cursor:pointer;
+    margin-top:20px;
+}
+.images{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.images img{
+    width:150px;
+    height:150px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+#surprise{
+    display:none;
+    margin-top:20px;
+}
+
+.link-box{
+    margin-top:20px;
+    word-wrap:break-word;
+    color:white;
+}
+
+  
